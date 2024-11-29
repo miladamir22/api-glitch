@@ -1,0 +1,70 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Laptop",
+        "price": 1200,
+        "isDiscounted": false
+      },
+      {
+        "id": "2",
+        "name": "Smartphone",
+        "price": 800,
+        "isDiscounted": true
+      },
+      {
+        "id": "3",
+        "name": "Headphones",
+        "price": 150,
+        "isDiscounted": false
+      },
+      {
+        "id": "4",
+        "name": "Keyboard",
+        "price": 100,
+        "isDiscounted": true
+      },
+      {
+        "id": "5",
+        "name": "Monitor",
+        "price": 300,
+        "isDiscounted": false
+      },
+      {
+        "id": "6",
+        "name": "Mouse",
+        "price": 50,
+        "isDiscounted": true
+      },
+      {
+        "id": "7",
+        "name": "Tablet",
+        "price": 600,
+        "isDiscounted": false
+      },
+      {
+        "id": "8",
+        "name": "Smartwatch",
+        "price": 200,
+        "isDiscounted": true
+      },
+      {
+        "id": "9",
+        "name": "Camera",
+        "price": 1000,
+        "isDiscounted": false
+      },
+      {
+        "id": "10",
+        "name": "Speaker",
+        "price": 250,
+        "isDiscounted": true
+      },
+      {
+        "id": "18be",
+        "name": "tag3",
+        "price": "4567",
+        "isDiscounted": true
+      }
+    ]
+  }
