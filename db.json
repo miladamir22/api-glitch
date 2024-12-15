@@ -1,39 +1,75 @@
 {
-  "books": [
+  "artists": [
     {
-      "id": 1,
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "genre": "Fiction",
-      "publishedYear": 1960
+      "id": "4",
+      "name": "Dua Lipa",
+      "imgSrc": "https://media.allure.com/photos/65d8f1e8e923c6a4feaf9a02/4:3/w_2664,h_1998,c_limit/dua%20lipa.jpg",
+      "genre": "Pop, Dance",
+      "country": "United Kingdom",
+      "age": 29,
+      "info": "Dua Lipa is a globally recognized artist known for her dance-pop hits.",
+      "songs": [
+        {
+          "title": "new rules",
+          "releaseYear": "2023",
+          "coverSrc": "https://i0.wp.com/www.rollingstone.com/wp-content/uploads/2018/06/rs-dua-lipa-6bc8bc2a-493d-4a51-9e8f-e8cfdd9d0559.jpg?ssl=1"
+        },
+        {
+          "title": "cool",
+          "releaseYear": "2020",
+          "coverSrc": "https://www.rollingstone.com/wp-content/uploads/2023/11/dua-lipa-syntk.jpg"
+        }
+      ],
+      "isVerified": true
     },
     {
-      "id": 2,
-      "title": "Harry Potter",
-      "author": "George Orwell",
-      "genre": "Dystopian",
-      "publishedYear": 1949
+      "id": "5",
+      "name": "The Weekend",
+      "imgSrc": "https://static.independent.co.uk/2023/08/11/20/GettyImages-1447433147.jpg",
+      "genre": "Pop, Soul",
+      "country": "United Kingdom",
+      "age": 32,
+      "info": "The Weekend is a Grammy-winning singer known for their soulful voice and emotional lyrics.",
+      "songs": [
+        {
+          "title": "die for you",
+          "releaseYear": "2022",
+          "coverSrc": "https://upload.wikimedia.org/wikipedia/en/8/81/The_Weeknd_-_Die_for_You.png"
+        },
+        {
+          "title": "the idol",
+          "releaseYear": "2020",
+          "coverSrc": "https://s.yimg.com/ny/api/res/1.2/c4fhVSoIsHeUI8uh8Wg0Og--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/aol_variety_168/ad1b6b3c52213c9a8f67866f6c96624f"
+        },
+        {
+          "title": "after hours",
+          "releaseYear": "2020",
+          "coverSrc": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36"
+        }
+      ],
+      "isVerified": true
     },
     {
-      "id": 3,
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "genre": "Classics",
-      "publishedYear": 1925
-    },
-    {
-      "id": 4,
-      "title": "Moby Dick",
-      "author": "Herman Melville",
-      "genre": "Adventure",
-      "publishedYear": 1851
-    },
-    {
-      "id": 5,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "genre": "Romance",
-      "publishedYear": 1813
+      "id": "6",
+      "name": "Ariana Grande",
+      "imgSrc": "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2024-06/240612-ariana-grande-se-1241p-a344c5.jpg",
+      "genre": "Pop, R&B",
+      "country": "United States",
+      "age": 31,
+      "info": "Ariana Grande is a Grammy-winning singer and actress known for her wide vocal range and pop hits.",
+      "songs": [
+        {
+          "title": "7 rings",
+          "releaseYear": "2019",
+          "coverSrc": "https://singersroom.com/wp-content/uploads/2023/03/Ariana-Grande-Songs.jpg"
+        },
+        {
+          "title": "last time",
+          "releaseYear": "2016",
+          "coverSrc": "https://media.npr.org/assets/img/2019/01/18/grande_wide-6f917cdc6d2a556f1ba9f5e3c762974e96a280a5.png"
+        }
+      ],
+      "isVerified": true
     }
   ]
 }
