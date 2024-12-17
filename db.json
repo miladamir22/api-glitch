@@ -1,75 +1,116 @@
 {
-  "artists": [
+  "movies": [
     {
       "id": "4",
-      "name": "Dua Lipa",
-      "imgSrc": "https://media.allure.com/photos/65d8f1e8e923c6a4feaf9a02/4:3/w_2664,h_1998,c_limit/dua%20lipa.jpg",
-      "genre": "Pop, Dance",
-      "country": "United Kingdom",
-      "age": 29,
-      "info": "Dua Lipa is a globally recognized artist known for her dance-pop hits.",
-      "songs": [
+      "title": "The Godfather",
+      "genre": "Crime",
+      "releaseYear": 1972,
+      "poster": "https://media.posterlounge.com/img/products/710000/707663/707663_poster.jpg",
+      "desc": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "cast": [
         {
-          "title": "new rules",
-          "releaseYear": "2023",
-          "coverSrc": "https://i0.wp.com/www.rollingstone.com/wp-content/uploads/2018/06/rs-dua-lipa-6bc8bc2a-493d-4a51-9e8f-e8cfdd9d0559.jpg?ssl=1"
+          "id": 10,
+          "fullname": "Marlon Brando",
+          "age": 80,
+          "country": "USA"
         },
         {
-          "title": "cool",
-          "releaseYear": "2020",
-          "coverSrc": "https://www.rollingstone.com/wp-content/uploads/2023/11/dua-lipa-syntk.jpg"
+          "id": 11,
+          "fullname": "Al Pacino",
+          "age": 81,
+          "country": "USA"
+        },
+        {
+          "id": 12,
+          "fullname": "James Caan",
+          "age": 82,
+          "country": "USA"
         }
-      ],
-      "isVerified": true
+      ]
     },
     {
       "id": "5",
-      "name": "The Weekend",
-      "imgSrc": "https://static.independent.co.uk/2023/08/11/20/GettyImages-1447433147.jpg",
-      "genre": "Pop, Soul",
-      "country": "United Kingdom",
-      "age": 32,
-      "info": "The Weekend is a Grammy-winning singer known for their soulful voice and emotional lyrics.",
-      "songs": [
+      "title": "Pulp Fiction",
+      "genre": "Drama",
+      "releaseYear": 1994,
+      "poster": "https://artofthemovies.co.uk/cdn/shop/files/pulp_fiction_EB23824_B_6dc502ae-a62e-401b-b567-bb587636f897_1024x1024@2x.jpg?v=1715178285",
+      "desc": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "cast": [
         {
-          "title": "die for you",
-          "releaseYear": "2022",
-          "coverSrc": "https://upload.wikimedia.org/wikipedia/en/8/81/The_Weeknd_-_Die_for_You.png"
+          "id": 13,
+          "fullname": "John Travolta",
+          "age": 68,
+          "country": "USA"
         },
         {
-          "title": "the idol",
-          "releaseYear": "2020",
-          "coverSrc": "https://s.yimg.com/ny/api/res/1.2/c4fhVSoIsHeUI8uh8Wg0Og--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/aol_variety_168/ad1b6b3c52213c9a8f67866f6c96624f"
+          "id": 14,
+          "fullname": "Uma Thurman",
+          "age": 51,
+          "country": "USA"
         },
         {
-          "title": "after hours",
-          "releaseYear": "2020",
-          "coverSrc": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36"
+          "id": 15,
+          "fullname": "Samuel L. Jackson",
+          "age": 73,
+          "country": "USA"
         }
-      ],
-      "isVerified": true
+      ]
     },
     {
       "id": "6",
-      "name": "Ariana Grande",
-      "imgSrc": "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2024-06/240612-ariana-grande-se-1241p-a344c5.jpg",
-      "genre": "Pop, R&B",
-      "country": "United States",
-      "age": 31,
-      "info": "Ariana Grande is a Grammy-winning singer and actress known for her wide vocal range and pop hits.",
-      "songs": [
+      "title": "The Matrix",
+      "genre": "Science Fiction",
+      "releaseYear": 1999,
+      "poster": "https://i5.walmartimages.com/asr/792bed4e-4a40-42ca-aa94-796a4dea0617.7f0329a15c580fcd79afdc52c1033f97.jpeg",
+      "desc": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "cast": [
         {
-          "title": "7 rings",
-          "releaseYear": "2019",
-          "coverSrc": "https://singersroom.com/wp-content/uploads/2023/03/Ariana-Grande-Songs.jpg"
+          "id": 16,
+          "fullname": "Keanu Reeves",
+          "age": 59,
+          "country": "Canada"
         },
         {
-          "title": "last time",
-          "releaseYear": "2016",
-          "coverSrc": "https://media.npr.org/assets/img/2019/01/18/grande_wide-6f917cdc6d2a556f1ba9f5e3c762974e96a280a5.png"
+          "id": 17,
+          "fullname": "Laurence Fishburne",
+          "age": 63,
+          "country": "USA"
+        },
+        {
+          "id": 18,
+          "fullname": "Carrie-Anne Moss",
+          "age": 57,
+          "country": "Canada"
         }
-      ],
-      "isVerified": true
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Inception",
+      "genre": "Science Fiction",
+      "releaseYear": 2010,
+      "poster": "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_UF894,1000_QL80_.jpg",
+      "desc": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "cast": [
+        {
+          "id": 19,
+          "fullname": "Leonardo DiCaprio",
+          "age": 49,
+          "country": "USA"
+        },
+        {
+          "id": 20,
+          "fullname": "Joseph Gordon-Levitt",
+          "age": 43,
+          "country": "USA"
+        },
+        {
+          "id": 21,
+          "fullname": "Elliot Page",
+          "age": 37,
+          "country": "Canada"
+        }
+      ]
     }
   ]
 }
