@@ -8,9 +8,24 @@
       "poster": "https://media.posterlounge.com/img/products/710000/707663/707663_poster.jpg",
       "desc": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
       "cast": [
-        { "id": 10, "fullname": "Marlon Brando", "age": 80, "country": "USA" },
-        { "id": 11, "fullname": "Al Pacino", "age": 81, "country": "USA" },
-        { "id": 12, "fullname": "James Caan", "age": 82, "country": "USA" }
+        {
+          "id": 10,
+          "fullname": "Marlon Brando",
+          "age": 80,
+          "country": "USA"
+        },
+        {
+          "id": 11,
+          "fullname": "Al Pacino",
+          "age": 81,
+          "country": "USA"
+        },
+        {
+          "id": 12,
+          "fullname": "James Caan",
+          "age": 82,
+          "country": "USA"
+        }
       ]
     },
     {
@@ -21,9 +36,24 @@
       "poster": "https://artofthemovies.co.uk/cdn/shop/files/pulp_fiction_EB23824_B_6dc502ae-a62e-401b-b567-bb587636f897_1024x1024@2x.jpg?v=1715178285",
       "desc": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
       "cast": [
-        { "id": 13, "fullname": "John Travolta", "age": 68, "country": "USA" },
-        { "id": 14, "fullname": "Uma Thurman", "age": 51, "country": "USA" },
-        { "id": 15, "fullname": "Samuel L. Jackson", "age": 73, "country": "USA" }
+        {
+          "id": 13,
+          "fullname": "John Travolta",
+          "age": 68,
+          "country": "USA"
+        },
+        {
+          "id": 14,
+          "fullname": "Uma Thurman",
+          "age": 51,
+          "country": "USA"
+        },
+        {
+          "id": 15,
+          "fullname": "Samuel L. Jackson",
+          "age": 73,
+          "country": "USA"
+        }
       ]
     },
     {
@@ -34,9 +64,24 @@
       "poster": "https://i5.walmartimages.com/asr/792bed4e-4a40-42ca-aa94-796a4dea0617.7f0329a15c580fcd79afdc52c1033f97.jpeg",
       "desc": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
       "cast": [
-        { "id": 16, "fullname": "Keanu Reeves", "age": 59, "country": "Canada" },
-        { "id": 17, "fullname": "Laurence Fishburne", "age": 63, "country": "USA" },
-        { "id": 18, "fullname": "Carrie-Anne Moss", "age": 57, "country": "Canada" }
+        {
+          "id": 16,
+          "fullname": "Keanu Reeves",
+          "age": 59,
+          "country": "Canada"
+        },
+        {
+          "id": 17,
+          "fullname": "Laurence Fishburne",
+          "age": 63,
+          "country": "USA"
+        },
+        {
+          "id": 18,
+          "fullname": "Carrie-Anne Moss",
+          "age": 57,
+          "country": "Canada"
+        }
       ]
     },
     {
@@ -47,9 +92,24 @@
       "poster": "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_UF894,1000_QL80_.jpg",
       "desc": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
       "cast": [
-        { "id": 19, "fullname": "Leonardo DiCaprio", "age": 49, "country": "USA" },
-        { "id": 20, "fullname": "Joseph Gordon-Levitt", "age": 43, "country": "USA" },
-        { "id": 21, "fullname": "Elliot Page", "age": 37, "country": "Canada" }
+        {
+          "id": 19,
+          "fullname": "Leonardo DiCaprio",
+          "age": 49,
+          "country": "USA"
+        },
+        {
+          "id": 20,
+          "fullname": "Joseph Gordon-Levitt",
+          "age": 43,
+          "country": "USA"
+        },
+        {
+          "id": 21,
+          "fullname": "Elliot Page",
+          "age": 37,
+          "country": "Canada"
+        }
       ]
     },
     {
@@ -57,12 +117,27 @@
       "title": "Interstellar",
       "genre": "Science Fiction",
       "releaseYear": 2014,
-      "poster": "https://m.media-amazon.com/images/I/71bMKntgCDL._AC_UF894,1000_QL80_.jpg",
+      "poster": "https://mythicwall.com/cdn/shop/files/Interstellar_2BMovie_2B_2Bposter_2BPrint_2BWall_2BArt_2BPoster_2B1-W0pfS_1024x1024.jpg?v=1712634286",
       "desc": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
       "cast": [
-        { "id": 22, "fullname": "Matthew McConaughey", "age": 54, "country": "USA" },
-        { "id": 23, "fullname": "Anne Hathaway", "age": 41, "country": "USA" },
-        { "id": 24, "fullname": "Jessica Chastain", "age": 46, "country": "USA" }
+        {
+          "id": 22,
+          "fullname": "Matthew McConaughey",
+          "age": 54,
+          "country": "USA"
+        },
+        {
+          "id": 23,
+          "fullname": "Anne Hathaway",
+          "age": 41,
+          "country": "USA"
+        },
+        {
+          "id": 24,
+          "fullname": "Jessica Chastain",
+          "age": 46,
+          "country": "USA"
+        }
       ]
     },
     {
@@ -70,12 +145,27 @@
       "title": "Gladiator",
       "genre": "Action",
       "releaseYear": 2000,
-      "poster": "https://m.media-amazon.com/images/I/51-YhIc16zL._AC_UF894,1000_QL80_.jpg",
+      "poster": "https://m.media-amazon.com/images/I/61MgGe-kA+S._AC_UF894,1000_QL80_.jpg",
       "desc": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
       "cast": [
-        { "id": 25, "fullname": "Russell Crowe", "age": 59, "country": "Australia" },
-        { "id": 26, "fullname": "Joaquin Phoenix", "age": 49, "country": "USA" },
-        { "id": 27, "fullname": "Connie Nielsen", "age": 58, "country": "Denmark" }
+        {
+          "id": 25,
+          "fullname": "Russell Crowe",
+          "age": 59,
+          "country": "Australia"
+        },
+        {
+          "id": 26,
+          "fullname": "Joaquin Phoenix",
+          "age": 49,
+          "country": "USA"
+        },
+        {
+          "id": 27,
+          "fullname": "Connie Nielsen",
+          "age": 58,
+          "country": "Denmark"
+        }
       ]
     },
     {
@@ -83,12 +173,27 @@
       "title": "The Dark Knight",
       "genre": "Action",
       "releaseYear": 2008,
-      "poster": "https://m.media-amazon.com/images/I/71pox3Z7s0L._AC_UF894,1000_QL80_.jpg",
+      "poster": "https://i.ebayimg.com/images/g/xDQAAOSw9N1Vw44i/s-l400.jpg",
       "desc": "When the menace known as the Joker emerges, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
       "cast": [
-        { "id": 28, "fullname": "Christian Bale", "age": 50, "country": "UK" },
-        { "id": 29, "fullname": "Heath Ledger", "age": 28, "country": "Australia" },
-        { "id": 30, "fullname": "Aaron Eckhart", "age": 56, "country": "USA" }
+        {
+          "id": 28,
+          "fullname": "Christian Bale",
+          "age": 50,
+          "country": "UK"
+        },
+        {
+          "id": 29,
+          "fullname": "Heath Ledger",
+          "age": 28,
+          "country": "Australia"
+        },
+        {
+          "id": 30,
+          "fullname": "Aaron Eckhart",
+          "age": 56,
+          "country": "USA"
+        }
       ]
     }
   ]
