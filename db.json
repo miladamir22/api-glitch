@@ -1,64 +1,39 @@
 {
-  "animals": [
+  "sliders": [
     {
       "id": "1",
-      "name": "Tiger",
-      "animalType": "Mammal",
-      "breed": "Bengal Tiger",
-      "age": 5,
-      "weight": 220,
-      "owner": "John Doe",
-      "imageUrl": "https://www.akronzoo.org/sites/default/files/styles/uncropped_xl/public/2022-05/Tiger-main.png?itok=HfmVWdFd"
+      "title": "Hello Everyone!",
+      "img": "https://amateurphotographer.com/wp-content/uploads/sites/7/2022/10/7.-Miroslav-Srb_Hello-Everyone.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Eating koala",
+      "img": "https://cannabislifenetwork.com/wp-content/uploads/2022/02/Random-Facts-Crossword.png"
     },
     {
       "id": "3",
-      "name": "Dog",
-      "animalType": "Mammal",
-      "breed": "German Shepherd",
-      "age": 3,
-      "weight": 30,
-      "owner": "Alice Brown",
-      "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*"
+      "title": "Tiger",
+      "img": "https://i.pinimg.com/736x/0f/b6/68/0fb668bacc666000f77151817b011d2a.jpg"
     },
     {
       "id": "4",
-      "name": "Parrot",
-      "animalType": "Bird",
-      "breed": "Macaw",
-      "age": 4,
-      "weight": 1.5,
-      "owner": "Sarah Johnson",
-      "imageUrl": "https://cdn.britannica.com/87/196687-138-2D734164/facts-parrots.jpg?w=800&h=450&c=crop"
+      "title": "Dog Face",
+      "img": "https://cdn.basedlabs.ai/1d39ffc0-85e5-11ef-9898-f7c520258af9.jpg"
     },
     {
       "id": "5",
-      "name": "Cat",
-      "animalType": "Mammal",
-      "breed": "Persian Cat",
-      "age": 2,
-      "weight": 4.5,
-      "owner": "Michael Smith",
-      "imageUrl": "https://www.wondercide.com/cdn/shop/articles/Upside_down_gray_cat.png?v=1685551065&width=1100"
+      "title": "AI Animal",
+      "img": "https://cdn.web.imagine.art/imagine-frontend/assets/images/ai-animal-generator-lp/hero-section/image.webp"
     },
     {
       "id": "6",
-      "name": "Rabbit",
-      "animalType": "Mammal",
-      "breed": "Dutch Rabbit",
-      "age": 1,
-      "weight": 2,
-      "owner": "Emily Davis",
-      "imageUrl": "https://winnebagoanimals.org/wp-content/uploads/2021/07/Rabbit3.jpg"
+      "title": "Fallow Deer",
+      "img": "https://cdn.britannica.com/94/494-050-A674AD3A/Fallow-deer.jpg"
     },
     {
-      "id": "7",
-      "name": "Fish",
-      "animalType": "Aquatic",
-      "breed": "Goldfish",
-      "age": 1,
-      "weight": 0.2,
-      "owner": "Chris Lee",
-      "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/220309153016-02-rose-veiled-fairy-wrasse-discovery.jpg?c=16x9&q=h_833,w_1480,c_fill"
+      "id": "e7c7",
+      "title": "aaaaaaaa",
+      "img": "blob:http://localhost:5173/a5f39418-d9dd-4c32-9de3-0123ec154919"
     }
   ]
 }
