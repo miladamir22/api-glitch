@@ -1,18 +1,12 @@
-// src/pages/Basket.jsx
-import React, { useContext } from 'react'; // Import useContext
-import { BasketContext } from '../context/BasketContext'; // Correct import path for context
-import BasketTable from '../components/BasketTable';
+import React from "react";
+import Navbar from "../components/Navbar";
+import BasketTable from "../components/BasketTable"
 
 const Basket = () => {
-    const { clearBasket } = useContext(BasketContext); // Use useContext to access clearBasket
-
-  return (
-    <div>
-      <h2>Your Basket</h2>
-      <BasketTable />
-      <button onClick={clearBasket}>Clear Basket</button>
-    </div>
-  );
+  return <div>
+    <Navbar/>
+    <BasketTable/>
+  </div>;
 };
 
 export default Basket;

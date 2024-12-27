@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 const pages = ['Home', 'Basket'];
 
 function Navbar() {
@@ -99,8 +99,7 @@ function Navbar() {
               color: 'inherit',
               textDecoration: 'none',
             }}
-          >
-            LOGO
+          >  
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
@@ -116,7 +115,7 @@ function Navbar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open profile">
               <IconButton sx={{ p: 0 }}>
-                <Avatar alt="Profile Picture" src="https://imgcdn.stablediffusionweb.com/2024/4/13/4cf59354-e91f-435e-b8cd-c0e8463035ac.jpg" />
+                <Avatar alt="Profile Picture" src="https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg" />
               </IconButton>
             </Tooltip>
           </Box>

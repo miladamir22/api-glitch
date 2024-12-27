@@ -1,17 +1,8 @@
-import React from 'react';
-import { useContext } from 'react';
-import { BasketContext } from '../context/BasketContext'; // Import BasketContext
-import {
-  styled,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Paper,
-  Button,
-} from '@mui/material/styles';
+import React, { useContext } from 'react';
+import { BasketContext } from '../context/BasketContext'; 
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button } from '@mui/material'; 
+import { styled } from '@mui/material/styles'; 
+import { tableCellClasses } from '@mui/material/TableCell';
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -33,10 +24,10 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 export default function BasketTable() {
-  const { basket, clearBasket, removeFromBasket } = useContext(BasketContext);
+  const { basket, clearBasket, removeFromBasket } = useContext(BasketContext); // Using context to get the basket data
 
   const handleClearAll = () => {
-    clearBasket(); // Call clearBasket from BasketContext
+    clearBasket();
   };
 
   return (
@@ -57,29 +48,30 @@ export default function BasketTable() {
             </TableRow>
           </TableHead>
           <TableBody>
-            {basket.map((product) => (
-              <StyledTableRow key={product.id}>
-                <StyledTableCell component="th" scope="row">
-                  {product.name}
-                </StyledTableCell>
-                <StyledTableCell align="right">{product.price}</StyledTableCell>
-                <StyledTableCell align="right">{product.category}</StyledTableCell>
-                <StyledTableCell align="right">
-                  <img src={product.image} alt={product.name} width={50} />
-                </StyledTableCell>
-                <StyledTableCell align="right">{product.quantity}</StyledTableCell>
-                <StyledTableCell align="right">
-                  <Button
-                    variant="contained"
-                    color="error"
-                    onClick={() => removeFromBasket(product.id)}
-                  >
-                    Remove
-                  </Button>
-                </StyledTableCell>
-              </StyledTableRow>
-            ))}
-          </TableBody>
+  {basket.map((product, index) => (
+    <StyledTableRow key={`${product.id}-${index}`}> {/* Combine product id and index for unique key */}
+      <StyledTableCell component="th" scope="row">
+        {product.title}
+      </StyledTableCell>
+      <StyledTableCell align="right">${product.price}</StyledTableCell>
+      <StyledTableCell align="right">{product.category}</StyledTableCell>
+      <StyledTableCell align="right">
+        <img src={product.image} alt={product.title} width={50} />
+      </StyledTableCell>
+      <StyledTableCell align="right">{product.quantity}</StyledTableCell>
+      <StyledTableCell align="right">
+        <Button
+          variant="contained"
+          color="error"
+          onClick={() => removeFromBasket(product.id)}
+        >
+          Delete
+        </Button>
+      </StyledTableCell>
+    </StyledTableRow>
+  ))}
+</TableBody>
+
         </Table>
       </TableContainer>
     </div>

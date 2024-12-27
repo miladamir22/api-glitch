@@ -1,43 +1,41 @@
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState, useEffect } from "react";
 
-// Context yaradılır
 export const BasketContext = createContext();
 
-const BasketProvider = ({ children }) => {
+export const BasketContextProvider = ({ children }) => {
   const [basket, setBasket] = useState([]);
 
-  // localStorage-ə məlumatı yazırıq və oxuyuruq
   useEffect(() => {
-    const savedBasket = JSON.parse(localStorage.getItem('basket'));
-    if (savedBasket) {
-      setBasket(savedBasket);
-    }
+    const savedBasket = JSON.parse(localStorage.getItem("basket")) || [];
+    setBasket(savedBasket);
   }, []);
 
-  useEffect(() => {
-    localStorage.setItem('basket', JSON.stringify(basket));
-  }, [basket]);
-
-  // Məhsul əlavə etmə funksiyası
   const addToBasket = (product) => {
-    setBasket([...basket, product]);
+    setBasket((prevBasket) => {
+      const updatedBasket = [...prevBasket, { ...product, quantity: 1 }];
+      localStorage.setItem("basket", JSON.stringify(updatedBasket));
+      return updatedBasket;
+    });
   };
 
-  // Məhsul silmə funksiyası
-  const removeFromBasket = (productId) => {
-    setBasket(basket.filter(item => item.id !== productId));
+  const removeFromBasket = (id) => {
+    setBasket((prevBasket) => {
+      const updatedBasket = prevBasket.filter((product) => product.id !== id);
+      localStorage.setItem("basket", JSON.stringify(updatedBasket));
+      return updatedBasket;
+    });
   };
 
-  // Bütün məhsulları silmək
   const clearBasket = () => {
     setBasket([]);
+    localStorage.removeItem("basket");
   };
 
   return (
-    <BasketContext.Provider value={{ basket, addToBasket, removeFromBasket, clearBasket }}>
+    <BasketContext.Provider
+      value={{ basket, addToBasket, removeFromBasket, clearBasket }}
+    >
       {children}
     </BasketContext.Provider>
   );
 };
-
-export default BasketProvider;

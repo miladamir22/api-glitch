@@ -1,13 +1,13 @@
 import React from 'react';
-import BasketProvider from './context/BasketContext';
-import Basket from './pages/Basket';
+import { BasketContextProvider } from './context/BasketContext'; 
+import Basket from './pages/Basket'
 
-const App = () => {
+function App() {
   return (
-    <BasketProvider>
-      <Basket /> 
-    </BasketProvider>
+    <BasketContextProvider> 
+      <Basket/>
+    </BasketContextProvider>
   );
-};
+}
 
 export default App;
