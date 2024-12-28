@@ -18,13 +18,13 @@ const MyNavbar = () => {
 
         <Nav className="ml-auto">
           <Nav.Link href="#home">
-            <AlbumIcon /> {/* Home Icon */}
+            <AlbumIcon /> 
           </Nav.Link>
           <Nav.Link href="#tasks">
-            <PhotoCameraFrontIcon /> {/* Tasks Icon */}
+            <PhotoCameraFrontIcon /> 
           </Nav.Link>
           <Nav.Link href="#users">
-            <CalendarMonthIcon /> {/* Users Icon */}
+            <CalendarMonthIcon /> 
           </Nav.Link>
         </Nav>
       </Container>
