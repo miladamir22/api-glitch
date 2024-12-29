@@ -46,7 +46,7 @@ export default function HomeCard() {
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
+           M
           </Avatar>
         }
         action={
@@ -55,7 +55,7 @@ export default function HomeCard() {
           </IconButton>
         }
         title="Azmp-102"
-        subheader="Sinif otagi"
+        subheader="Classroom"
       />
       <CardMedia
         component="img"

@@ -6,14 +6,18 @@ import { createTheme } from "@mui/material/styles";
 import { AppProvider } from "@toolpad/core/AppProvider";
 import { DashboardLayout } from "@toolpad/core/DashboardLayout";
 import { useDemoRouter } from "@toolpad/core/internal";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import HomeIcon from '@mui/icons-material/Home';
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-import FactCheckIcon from '@mui/icons-material/FactCheck';
-import SettingsIcon from '@mui/icons-material/Settings';
-import UnarchiveIcon from '@mui/icons-material/Unarchive';
-import Diversity3Icon from '@mui/icons-material/Diversity3';
-import Navbar from "../components/Navbar";  
+import "bootstrap/dist/css/bootstrap.min.css";
+import HomeIcon from "@mui/icons-material/Home";
+import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+import FactCheckIcon from "@mui/icons-material/FactCheck";
+import SettingsIcon from "@mui/icons-material/Settings";
+import UnarchiveIcon from "@mui/icons-material/Unarchive";
+import Diversity3Icon from "@mui/icons-material/Diversity3";
+import Navbar from "../components/Navbar";
+import HomeCard from "../components/HomeCard";
+import Calendar from "../components/Calendar"; 
+import Azmp from "../components/Azmp"; 
+
 
 const NAVIGATION = [
   {
@@ -22,12 +26,12 @@ const NAVIGATION = [
     icon: <HomeIcon />,
   },
   {
-    segment: "page-2",
+    segment: "Calendar",
     title: "Təqvim",
     icon: <CalendarMonthIcon />,
   },
   {
-    segment: "page-3",
+    segment: "Tapsiriqlar",
     title: "Tapşırıqların Siyahısı",
     icon: <FactCheckIcon />,
   },
@@ -37,12 +41,12 @@ const NAVIGATION = [
     icon: <Diversity3Icon />,
   },
   {
-    segment: "page-5",
-    title: "Kurslariın arxivi",
+    segment: "Arxivde hec bir kurs yoxdur.",
+    title: "Kursları Arxivi",
     icon: <UnarchiveIcon />,
   },
   {
-    segment: "page-6",
+    segment: "Parametrler",
     title: "Parametrlər",
     icon: <SettingsIcon />,
   },
@@ -75,7 +79,12 @@ function DemoPageContent({ pathname }) {
         textAlign: "center",
       }}
     >
-      <Typography>Dashboard content for {pathname}</Typography>
+      {pathname === "/page" && <HomeCard />}
+      {pathname === "/Calendar" && <Calendar />} 
+      {pathname === "/page-4" && <Azmp />} 
+      {pathname !== "/page" && pathname !== "/Calendar" && pathname !== "/page-4" && (
+        <Typography>{`You are at ${pathname}`}</Typography>
+      )}
     </Box>
   );
 }
@@ -99,9 +108,8 @@ function Home(props) {
       window={demoWindow}
     >
       <DashboardLayout>
-      <Navbar />  
-
-        <DemoPageContent pathname={router.pathname} />
+        <Navbar />
+        <DemoPageContent pathname={router.pathname} /> 
       </DashboardLayout>
     </AppProvider>
   );
