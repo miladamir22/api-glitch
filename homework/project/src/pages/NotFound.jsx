@@ -7,17 +7,12 @@ const NotFound = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "100vh",
-        margin: 0,
       }}
     >
       <img
-        src="https://www.redefineyourmarketing.com/wp-content/uploads/404code-800x611-1.png"
+        src="https://sitechecker.pro/wp-content/uploads/2023/06/404-status-code.png"
         alt="404(not found)"
-        style={{
-          width: "100%",
-          height: "100%",
-        }}
+        style={{ maxHeight: "950px" }}
       />
     </div>
   );
