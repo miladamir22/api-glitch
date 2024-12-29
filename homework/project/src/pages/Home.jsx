@@ -18,7 +18,6 @@ import HomeCard from "../components/HomeCard";
 import Calendar from "../components/Calendar"; 
 import Azmp from "../components/Azmp"; 
 
-
 const NAVIGATION = [
   {
     segment: "page",
@@ -83,7 +82,7 @@ function DemoPageContent({ pathname }) {
       {pathname === "/Calendar" && <Calendar />} 
       {pathname === "/page-4" && <Azmp />} 
       {pathname !== "/page" && pathname !== "/Calendar" && pathname !== "/page-4" && (
-        <Typography>{`You are at ${pathname}`}</Typography>
+        <Typography>{`You are at ${pathname} page`}</Typography>
       )}
     </Box>
   );
