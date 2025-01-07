@@ -1,67 +1,52 @@
-{
-  "countries": [
-    {
-      "id": "1",
-      "name": "Azerbaijan",
-      "population": 10139177,
-      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/1200px-Flag_of_Azerbaijan.svg.png",
-      "capital": "Baku",
-      "description": "Azerbaijan is a country located at the boundary of Eastern Europe and Western Asia, known for its rich culture and oil resources.",
-      "religion": "Islam"
-    },
-    {
-      "id": "2",
-      "name": "Turkey",
-      "population": 85645100,
-      "flagImg": "https://st5.depositphotos.com/83175278/68403/v/450/depositphotos_684032408-stock-illustration-turkey-flag-turkish-flag-turkish.jpg",
-      "capital": "Ankara",
-      "description": "Turkey bridges Europe and Asia, famous for its historical landmarks like Hagia Sophia and delicious cuisine.",
-      "religion": "Islam"
-    },
-    {
-      "id": "3",
-      "name": "Germany",
-      "population": 83883596,
-      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/800px-Flag_of_Germany.svg.png",
-      "capital": "Berlin",
-      "description": "Germany is a leading country in Europe, known for its engineering, cultural heritage, and modern economy.",
-      "religion": "Christianity"
-    },
-    {
-      "id": "4",
-      "name": "France",
-      "population": 67391582,
-      "flagImg": "https://cdn.britannica.com/82/682-004-F0B47FCB/Flag-France.jpg",
-      "capital": "Paris",
-      "description": "France is a country known for its history, art, and culture, including landmarks like the Eiffel Tower and its world-class wine.",
-      "religion": "Christianity"
-    },
-    {
-      "id": "5",
-      "name": "Italy",
-      "population": 60246546,
-      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1500px-Flag_of_Italy.svg.png",
-      "capital": "Rome",
-      "description": "Italy is famous for its art, architecture, and cuisine, including landmarks like the Colosseum and Venice.",
-      "religion": "Christianity"
-    },
-    {
-      "id": "6",
-      "name": "United States",
-      "population": 331002651,
-      "flagImg": "https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg",
-      "capital": "Washington, D.C.",
-      "description": "The United States is a global superpower known for its diverse culture, technology, and political influence.",
-      "religion": "Christianity"
-    },
-    {
-      "id": "7",
-      "name": "Canada",
-      "population": 37742154,
-      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png",
-      "capital": "Ottawa",
-      "description": "Canada is a large North American country known for its natural beauty, multiculturalism, and high standard of living.",
-      "religion": "Christianity"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "Soda",
+    "name": "Coca-Cola",
+    "ml": 330,
+    "saleprice": 12.50,
+    "costprice": 7.00,
+    "instock": true,
+    "category": "Carbonated"
+  },
+  {
+    "id": 2,
+    "type": "Juice",
+    "name": "Tropicana",
+    "ml": 1000,
+    "saleprice": 15.00,
+    "costprice": 9.50,
+    "instock": false,
+    "category": "Fruit"
+  },
+  {
+    "id": 3,
+    "type": "Water",
+    "name": "Evian",
+    "ml": 500,
+    "saleprice": 8.00,
+    "costprice": 4.00,
+    "instock": false,
+    "category": "Mineral"
+  },
+  {
+    "id": 4,
+    "type": "Tea",
+    "name": "Lipton",
+    "ml": 500,
+    "saleprice": 10.00,
+    "costprice": 5.50,
+    "instock": true,
+    "category": "Beverage"
+  },
+  {
+    "id": 5,
+    "type": "Energy Drink",
+    "name": "Red Bull",
+    "ml": 250,
+    "saleprice": 20.00,
+    "costprice": 12.00,
+    "instock": true,
+    "category": "Energy"
+  }
+]
